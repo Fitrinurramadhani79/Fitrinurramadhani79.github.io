@@ -6,7 +6,7 @@ $(window).scroll(function () {
     var top = $(this).scrollTop();
     $('nav').toggleClass('scrolled', top > 200);
     $('.nav-link').css('color', top > 200 ? 'black' : 'white');
-    $('.navbar-brand').text(top > 200 ? 'Sona Setiana' : '');
+    $('.navbar-brand').text(top > 200 ? 'FITRI NUR RAMADHANI' : '');
     if (top == 0) {
         $('.nav-link').removeClass('active');
     }
